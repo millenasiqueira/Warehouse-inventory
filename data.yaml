@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 33
+names: ['Blue penbox', 'Brazil-s flag', 'Detergent', 'Fabric', 'Multi-Purpose Bleach', 'Package of Powder Laundry Detergent', 'Powder Laundry Detergent', 'Resistant gloves box', 'Switch', 'Wipes', 'air conditioner', 'bathroom tissue dispenser', 'big pan', 'calculator', 'coffee ketle', 'compactor pen box', 'cup box', 'cup support box', 'envelope-s box', 'letter tray', 'lunchbox lid package', 'maxprint box', 'napkin box', 'paper box', 'paper towel package', 'paper-s box', 'paper-s package', 'pen box', 'red pen', 'stapler', 'television 23-', 'toilet paper package', 'white glue']
+
+roboflow:
+  workspace: mimi-jyews
+  project: inventory-albmg
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/mimi-jyews/inventory-albmg/dataset/1
